@@ -1,0 +1,12 @@
+.feature {
+  background-color: #f9f7ff;
+  &--left {
+    width: 40%;
+  }
+  &--right {
+    width: 40%;
+    &__content {
+      padding-top: 84px;
+    }
+  }
+}

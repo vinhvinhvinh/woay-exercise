@@ -1,0 +1,23 @@
+.service {
+  height: auto;
+  &--main {
+    width: 90%;
+    margin: 148px auto;
+    &__item {
+      padding: 64px 64px 48px 24px;
+      border-radius: 10px;
+      width: 28%;
+      background-color: #fff;
+      box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    }
+
+    &__content h4 {
+      font-size: 18px;
+      font-weight: bold;
+    }
+
+    &__base p {
+      font-size: 14px;
+    }
+  }
+}

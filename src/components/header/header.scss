@@ -1,0 +1,49 @@
+.header {
+  padding: 0 124px;
+  &--content {
+    font-weight: bold;
+  }
+  &--nav {
+    width: 28%;
+    &--list {
+      width: 100%;
+    }
+
+    &__item {
+      cursor: pointer;
+      width: 128px;
+      list-style-type: none;
+      text-align: center;
+    }
+  }
+
+  &--main {
+    position: relative;
+    height: 774px;
+    background-color: #f4f1ff;
+
+    &__left {
+      width: 40%;
+      padding: 128px 0 0 168px;
+    }
+
+    &__title {
+      font-weight: 800;
+      font-size: 50px;
+    }
+
+    &__btn {
+      cursor: pointer;
+      width: 188px;
+      background-color: #7951f9;
+      color: #fff;
+      border-radius: 8px;
+    }
+
+    &__right {
+      position: absolute;
+      top: 0;
+      right: 0;
+    }
+  }
+}
