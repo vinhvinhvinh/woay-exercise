@@ -30,3 +30,7 @@ npm
 ## More
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+
+##Email: ntvinh0606@gmail.com
+Name: Nguyễn Thế Vinh
